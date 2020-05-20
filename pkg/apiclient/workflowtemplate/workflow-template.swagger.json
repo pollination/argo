@@ -378,6 +378,10 @@
           "type": "boolean",
           "format": "boolean",
           "title": "Make Artifacts optional, if Artifacts doesn't generate or exist"
+        },
+        "fromSubpath": {
+          "type": "string",
+          "title": "FromSubPath allows an artifact to reference a subpath from a previous step"
         }
       },
       "title": "Artifact indicates an artifact to place at a specified path"
