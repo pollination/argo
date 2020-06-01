@@ -5,7 +5,7 @@ OUTPUT_IMAGE_ARCH ?= amd64
 
 BUILD_DATE             = $(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
 GIT_COMMIT             = $(shell git rev-parse HEAD)
-GIT_REMOTE             = origin
+GIT_REMOTE             = pollination
 GIT_BRANCH             = $(shell git rev-parse --abbrev-ref=loose HEAD | sed 's/heads\///')
 GIT_TAG                = $(shell git describe --exact-match --tags HEAD 2>/dev/null || git rev-parse --short=8 HEAD 2>/dev/null)
 GIT_TREE_STATE         = $(shell if [ -z "`git status --porcelain`" ]; then echo "clean" ; else echo "dirty"; fi)
@@ -19,7 +19,7 @@ DOCKERFILE            := Dockerfile
 
 
 # docker image publishing options
-IMAGE_NAMESPACE       ?= argoproj
+IMAGE_NAMESPACE       ?= pollination
 
 # The rules for what version are, in order of precedence
 # 1. If anything passed at the command line (e.g. make release VERSION=...)

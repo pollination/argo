@@ -12,7 +12,7 @@
   "info": {
     "description": "Argo",
     "title": "Argo",
-    "version": "latest"
+    "version": "v2.8.1-artifact-folders"
   },
   "host": "localhost:2746",
   "paths": {
