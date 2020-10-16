@@ -14,13 +14,13 @@ spec:
       serviceAccountName: argo
       containers:
       - name: workflow-controller
-        image: argoproj/workflow-controller:v2.8.1-artifact-permissions
+        image: argoproj/workflow-controller:aec-tech
         command:
         - workflow-controller
         args:
         - --configmap
         - workflow-controller-configmap
         - --executor-image
-        - argoproj/argoexec:v2.8.1-artifact-permissions
+        - argoproj/argoexec:aec-tech
       nodeSelector:
         kubernetes.io/os: linux

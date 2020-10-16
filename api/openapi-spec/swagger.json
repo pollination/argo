@@ -12,7 +12,7 @@
   "info": {
     "description": "Argo",
     "title": "Argo",
-    "version": "v2.8.1-artifact-permissions"
+    "version": "aec-tech"
   },
   "host": "localhost:2746",
   "paths": {

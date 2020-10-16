@@ -483,7 +483,7 @@ spec:
       - args:
         - server
         - --namespaced
-        image: argoproj/argocli:v2.8.1-artifact-permissions
+        image: argoproj/argocli:aec-tech
         name: argo-server
         ports:
         - containerPort: 2746
@@ -521,11 +521,11 @@ spec:
         - --configmap
         - workflow-controller-configmap
         - --executor-image
-        - argoproj/argoexec:v2.8.1-artifact-permissions
+        - argoproj/argoexec:aec-tech
         - --namespaced
         command:
         - workflow-controller
-        image: argoproj/workflow-controller:v2.8.1-artifact-permissions
+        image: argoproj/workflow-controller:aec-tech
         name: workflow-controller
       nodeSelector:
         kubernetes.io/os: linux

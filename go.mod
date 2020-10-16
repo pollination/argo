@@ -68,10 +68,10 @@ require (
 	github.com/valyala/fasttemplate v1.1.0
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
-	golang.org/x/crypto v0.0.0-20200311171314-f7b00557c8c4
-	golang.org/x/net v0.0.0-20200301022130-244492dfa37a
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
+	golang.org/x/net v0.0.0-20200822124328-c89045814202
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/tools v0.0.0-20200530233709-52effbd89c51 // indirect
+	golang.org/x/tools v0.0.0-20201016152635-c90119023dcc // indirect
 	google.golang.org/api v0.20.0
 	google.golang.org/genproto v0.0.0-20200317114155-1f3552e48f24
 	google.golang.org/grpc v1.28.0
